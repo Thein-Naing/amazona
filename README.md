@@ -7,6 +7,10 @@
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/cc7327ba-dfaf-4b53-8fac-079e28ffc86c">
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/c1fe0fcd-588e-4732-90b6-a5b71c35ada4">
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/7962975d-58a3-437d-8c22-8a51635b1fe4">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/d24642b0-0efd-40fd-a9c5-ebdd27a67e4d">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/a663b5e9-8d84-4f18-aaf5-6b32e8d6259d">
+
+
 
 
 
