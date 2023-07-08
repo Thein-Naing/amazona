@@ -12,6 +12,10 @@
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/6e100ef9-0f54-4ab3-8491-fd71e0c5de98">
 
 
+`[3] Create Checkout.jsx/css and export to App.js to render and add Link to '/checkout above basket icon to get redirect functionality to Checkout page when we click basket icon`
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/9cb2497b-d70b-4d4f-b939-57e8a328e177">
+
 
 
 
