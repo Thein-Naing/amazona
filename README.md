@@ -3,6 +3,7 @@
 
 
 `[2] Update Home.css/Header.css for UI with new banner.`
-<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/607282b9-ab6c-4a09-8b81-bbb0b57939f8">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/318d1168-09d9-4b06-b5e6-c55ddb90fa1d">
+
 
 
