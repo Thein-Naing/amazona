@@ -9,6 +9,8 @@
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/7962975d-58a3-437d-8c22-8a51635b1fe4">
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/d24642b0-0efd-40fd-a9c5-ebdd27a67e4d">
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/a663b5e9-8d84-4f18-aaf5-6b32e8d6259d">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/6e100ef9-0f54-4ab3-8491-fd71e0c5de98">
+
 
 
 
