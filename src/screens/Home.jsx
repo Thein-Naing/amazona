@@ -1,6 +1,8 @@
 import React from "react";
 import "../Style/Home.css";
 import Product from "../components/Product";
+// import amazonBanner from '../images/amazonBanner.jpg';
+import banner from '../images/banner.png'
 
 function Home() {
     return(
@@ -8,7 +10,10 @@ function Home() {
             <div className="home_container">
                 <img
                     className="home_image"
-                    src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB28684220_.jpg"
+                    // src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB28684220_.jpg"
+                    // src={amazonBanner}
+                    // src={banner}
+                    src="	https://m.media-amazon.com/images/I/61NC10esvML._SX3000_.jpg"
                     alt=""
                 />
 
