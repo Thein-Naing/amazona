@@ -22,3 +22,5 @@
 
 
 
+`[4] Create Checkout page and css styling  . it works but busket icon is not working again and neeed to test it`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/9a09663f-1c16-4a54-b44c-8f4733f09a1d">
