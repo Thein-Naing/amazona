@@ -14,6 +14,8 @@
 
 `[3] Create Checkout.jsx/css and export to App.js to render and add Link to '/checkout above basket icon to get redirect functionality to Checkout page when we click basket icon`
 
+
+
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/9cb2497b-d70b-4d4f-b939-57e8a328e177">
 
 
@@ -24,3 +26,6 @@
 
 `[4] Create Checkout page and css styling  . it works but busket icon is not working again and neeed to test it`
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/9a09663f-1c16-4a54-b44c-8f4733f09a1d">
+
+`[5] Fixed error and basket icon/ create context for global state management and now checkout page is working fine. Still working on checkout page.`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/18d160c7-a6eb-4a98-bd2b-16fbf6b0972f">
