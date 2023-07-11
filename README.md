@@ -34,3 +34,6 @@
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/5c81310a-7306-420c-a1b2-5bf972bad907">
 
 
+`[7] Update Header.jsby using StateProvider and update quantuty 0 with{basket.length} at ShoppingBasketIcon component. But UI is still not good`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/e35220b8-4f18-4ae4-b887-211ff715ee3f">
+
