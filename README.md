@@ -30,7 +30,12 @@
 `[5] Fixed error and basket icon/ create context for global state management and now checkout page is working fine. Still working on checkout page.`
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/18d160c7-a6eb-4a98-bd2b-16fbf6b0972f">
 
-`[6]` Updating checkout page , UI is not tidy need to fix`
+`[6] Updating checkout page , UI is not tidy need to fix`
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/5c81310a-7306-420c-a1b2-5bf972bad907">
 
 
+`[7] Update Header.jsby using StateProvider and update quantuty 0 with{basket.length} at ShoppingBasketIcon component. But UI is still not good`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/e35220b8-4f18-4ae4-b887-211ff715ee3f">
+
+`[8] Update CheckoutProducts.css and now UI is better than before;
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/2cb3380f-1438-4039-aa22-7f2c990f1d63">
