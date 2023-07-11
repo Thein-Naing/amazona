@@ -29,3 +29,7 @@
 
 `[5] Fixed error and basket icon/ create context for global state management and now checkout page is working fine. Still working on checkout page.`
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/18d160c7-a6eb-4a98-bd2b-16fbf6b0972f">
+
+`[6]` Updating checkout page`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/04fcdaff-c80f-42c9-9b76-82acd6c46cd6">
+
