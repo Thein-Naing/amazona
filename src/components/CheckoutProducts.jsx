@@ -1,6 +1,3 @@
-
-
-
 // import React, { useState } from 'react';
 import "../Style/CheckoutProducts.css";
 import {useStateValue} from "../Context/StateProvider";
@@ -16,13 +13,13 @@ function CheckoutProducts({id, image, title, price, rating}) {
   return (
     <div className="checkoutProducts">
         <img className="checkoutProducts_image" src={image} alt="" />
-        <div className="checkoutProductS_info">
-            <p className="checkoutProductS_title">{title}</p>
-            <p className="checkoutProductS_price">
+        <div className="checkoutProducts_info">
+            <p className="checkoutProducts_title">{title}</p>
+            <p className="checkoutProducts_price">
                 <small>$</small>
                 <strong>{price}</strong>
             </p>
-            <div className="checkoutProductS_rating">
+            <div className="checkoutProducts_rating">
                 {Array(rating)
                 .fill()
                 .map((_, i) => (

@@ -6,8 +6,12 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import {auth} from "../screens/firebase";
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { useState } from 'react';
+import {useStateValue} from "../Context/StateProvider";
 
 const Header = () => {
+
+  const [{basket}, dispatch] = useStateValue();
+
   const[user, setUser] = useState({});
   onAuthStateChanged(auth, (currentUser) => {
     setUser(currentUser);
@@ -52,7 +56,7 @@ const Header = () => {
         <Link to='/checkout'>
         <div className='header_optionBasket'>
           <ShoppingBasketIcon  />
-          <span className="header_optionTwo header_basketCount">0</span>
+          <span className="header_optionTwo header_basketCount">{basket?.length}</span>
         </div>
         </Link>
       </div>
