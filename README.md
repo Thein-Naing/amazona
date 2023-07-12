@@ -50,4 +50,4 @@
 
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/1d39561b-56f7-4f18-b044-0e1a1fa844e8">
 
-`[12] Create backend folder in root folder and npm i express cors uuid nodemon stripe for backend`
+`[12] Create backend folder in root folder and npm i express cors uuid nodemon stripe dotenv for backend`
