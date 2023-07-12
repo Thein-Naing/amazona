@@ -50,4 +50,8 @@
 
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/1d39561b-56f7-4f18-b044-0e1a1fa844e8">
 
-`[12] Create backend folder in root folder and npm i express cors uuid nodemon stripe dotenv for backend`
+`[12] Create backend folder in root folder and npm i express cors uuid nodemon stripe dotenv for backend stripe payment is successful but axios got error and not receiving payments in srtipe`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/8dd9a63d-0064-4695-ad44-34a86d0865a4">
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/d2e4f235-8855-4cb6-8ea9-76949a05e3ea">
+
