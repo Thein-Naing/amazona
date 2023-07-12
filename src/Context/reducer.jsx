@@ -1,4 +1,3 @@
-
 export const initialState = {
   basket: [],
   user: null,
@@ -33,7 +32,7 @@ const reducer = (state, action) => {
       case "SET_USER":
           return{
               ...state,
-              user: action.user,// This is going to be the user that we actuallty dispatched
+              user: action.user,// This is going to be the user that we actually dispatched
           };
           default:
               return state;
