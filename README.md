@@ -44,4 +44,4 @@
 
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/a3e8c891-4513-4dfe-a15d-ee4303666648">
 
-`[10] npm i react-stripe-checkout axios`
+`[10] npm i react-stripe-checkout axios react-toastify`
