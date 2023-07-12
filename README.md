@@ -44,4 +44,14 @@
 
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/a3e8c891-4513-4dfe-a15d-ee4303666648">
 
-`[10] npm i react-stripe-checkout axios`
+`[10] npm i react-stripe-checkout axios react-toastify`
+`[11] uninstall react-toastify and replace with alert because of causing webpack error and stripe payment UI is not so good now and currencyforamt has also error and need to fix `
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/7d3991f9-0b82-44db-9fe2-3f9dfeea6866">
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/1d39561b-56f7-4f18-b044-0e1a1fa844e8">
+
+`[12] Create backend folder in root folder and npm i express cors uuid nodemon stripe dotenv for backend stripe payment is successful but axios got error and not receiving payments in srtipe`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/8dd9a63d-0064-4695-ad44-34a86d0865a4">
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/d2e4f235-8855-4cb6-8ea9-76949a05e3ea">
+
