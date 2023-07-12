@@ -39,3 +39,8 @@
 
 `[8] Update CheckoutProducts.css and now UI is better than before;
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/2cb3380f-1438-4039-aa22-7f2c990f1d63">
+
+`[9] Update SubTotal.jsx/css and checkout UI is now looking good. Test it and all working fine. Will continue stripe payments functionality `
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/a3e8c891-4513-4dfe-a15d-ee4303666648">
+
