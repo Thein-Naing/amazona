@@ -1,35 +1,70 @@
-import React from "react";
-import CurrencyFormat from "react-currency-format";
-import { useStateValue } from "../Context/StateProvider";
+import React from 'react';
 import "../Style/SubTotal.css";
-import { getBasketTotal } from "../Context/reducer";
+import CurrencyFormat from 'react-currency-format';
+import {useStateValue} from "../Context/StateProvider";
+import {getBasketTotal} from "../Context//reducer";
+import {Await, useNavigate} from "react-router-dom";
+import StripeCheckout from "react-stripe-checkout";
+import axios from "axios";
+import { Alert } from '@mui/material';
+// import "react-toastify/dist/ReactToastify.css";
+// import {  toast} from "react-toastify";
 
-const SubTotal = () => {
-  const [{ basket, user }, dispatch] = useStateValue();
-  const total = getBasketTotal(basket);
+
+
+// toast.configure();
+
+function SubTotal() {
+    const Navigate = useNavigate();
+    const [{basket, user}, dispatch] = useStateValue();
+    const total = getBasketTotal(basket);
+
+    async function handleToken(token){
+        const response = await axios.post("http://localhost:8080/checkout", {
+            token,
+            total
+        })
+        const {status} = response.data;
+        if(status === "success"){
+            Await ("Success! Product Purchased", {
+                type: "success"
+            })
+        }else{
+            Await("Error! Something went wrong", {
+                type: "error"
+            })
+        }
+    }
 
   return (
-    <div className="subtotal">
-      <CurrencyFormat
-        renderText={(value) => (
-          <>
-            <p>
-              Subtotal ({basket.length} items):
-              <strong>{value}</strong>
-            </p>
-            <small className="subtotal_left">
-              <input type="checkbox" />
-              This order contains a gift
-            </small>
-          </>
-        )}
-        decimalScale={2}
-        value={getBasketTotal(basket)}
-        displayType={"text"}
-        thousandSeparator={true}
-        prefix={"$"}
+    <div className='subtotal'>
+        <CurrencyFormat
+            renderText={(value) => (
+                <>
+                    <p>
+                        Subtotal ({basket.length} items):
+                        <strong>{value}</strong>
+                    </p>
+                    <small className='subtotal_left'>
+                        <input type="checkbox" />
+                        This order contains a gift
+                    </small>
+                </>
+            )}
+            decimalScale={2}
+            value={getBasketTotal(basket)}
+            displayType={"text"}
+            thousandSeparator={true}
+            prefix={"$"}
+        />
+      {/* <button>Checkout</button> */}
+      <StripeCheckout
+      stripeKey="pk_test_51NESrqHpTTELhGYNLcO9J2PzPFHJE2mJLBVUuqv5NBF12heMthn2nQDE4Vk6eHJ1jfCepUisyvtNVpGeftS4qosh00zBENIGIi"
+      token={handleToken}
+      amount={total}
+
+
       />
-      <button>Checkout</button>
     </div>
   );
 };
