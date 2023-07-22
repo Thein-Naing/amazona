@@ -1,4 +1,5 @@
 # amazona- react with firebase
+# Successfully deployed in firebase . Here is the link https://a-5fe53.web.app/
 `[1]frontend is partially finished with firebase user auth.. But UI is not good so need to update.`
 
 
