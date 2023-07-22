@@ -4,7 +4,7 @@ import CurrencyFormat from 'react-currency-format';
 import {useStateValue} from "../Context/StateProvider";
 import {getBasketTotal} from "../Context/reducer";
 import {useNavigate} from "react-router-dom";
-// import StripeCheckout from "react-stripe-checkout";
+import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 // import { alert } from '@mui/material';
 // import "react-toastify/dist/ReactToastify.css";
@@ -57,14 +57,14 @@ function SubTotal() {
             thousandSeparator={true}
             prefix={"$"}
         />
-      <button>Checkout</button>
-      {/* <StripeCheckout
+      {/* <button>Checkout</button> */}
+      <StripeCheckout
       stripeKey="pk_test_51NESrqHpTTELhGYNLcO9J2PzPFHJE2mJLBVUuqv5NBF12heMthn2nQDE4Vk6eHJ1jfCepUisyvtNVpGeftS4qosh00zBENIGIi"
       token={handleToken}
       amount={total}
 
 
-      /> */}
+      />
     </div>
   );
 };
