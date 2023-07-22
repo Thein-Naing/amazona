@@ -1,6 +1,8 @@
 # amazona- react with firebase
-# Successfully deployed in firebase . Here is the link https://a-5fe53.web.app/
-`[1]frontend is partially finished with firebase user auth.. But UI is not good so need to update.`
+# Successfully deployed in firebase . Here is the link https://a-5fe53.web.app
+`[1]After learning a couple of amazon clone tutorials from youtube channels and afetr bought and learning ecommerce from scratch mern stack tutorial from traversymedia.com and so on I created this amazona website on my own.
+Thanks to Easy2Code,CleverProgrammer,Coding with Basir, CodeSoucrce and coopercode youtube channels and traversymedia.com .`
+
 
 
 `[2] Update Home.css/Header.css for UI with new banner.`
