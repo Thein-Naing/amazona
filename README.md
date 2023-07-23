@@ -1,12 +1,14 @@
 # amazona- react with firebase
 # After struggling a few days and finally successfully deployed amazona(amazone-clone)in firebase.
-# Here is the link https://a-5fe53.web.app
+# Here is the link https://a-5fe53.firebaseapp.com/
 `[1]After learning a couple of amazon clone tutorials from youtube channels and afetr bought and learning ecommerce from scratch mern stack tutorial from traversymedia.com and so on I created this amazona website on my own.
 Thanks to Easy2Code,CleverProgrammer,Coding with Basir, CodeSoucrce and coopercode youtube channels and traversymedia.com .`
 
 
 
 `[2] Update Home.css/Header.css for UI with new banner.`
+<img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/b2c090a0-b186-44ee-9c74-76a90dc077bb">
+
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/8f2730cb-30c4-4c24-86a9-eff7c8bb1f62">
 <img width="960" alt="image" src="https://github.com/Thein-Naing/amazona/assets/117463446/be1637b6-a1d1-4e52-8186-5ab44db25325">
 
