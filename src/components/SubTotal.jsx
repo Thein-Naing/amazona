@@ -20,7 +20,7 @@ function SubTotal() {
     const total = getBasketTotal(basket);
 
     async function handleToken(token){
-        const response = await axios.post("http://localhost:8080/checkout", {
+        const response = await axios.post("http://localhost:5000/checkout", {
             token,
             total
         })
