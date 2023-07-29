@@ -2,7 +2,7 @@
 # After struggling a few days and finally successfully deployed amazona(amazon-clone)in firebase.
 # Here is the link https://a-5fe53.firebaseapp.com/
 `[1]After learning a couple of amazon clone tutorials from youtube channels and afetr bought and learning ecommerce from scratch mern stack tutorial from traversymedia.com and so on I created this amazona website on my own.
-Thanks to Easy2Code,CleverProgrammer,Coding with Basir, CodeSoucrce and coopercode youtube channels and traversymedia.com  and net ninja.dev`
+Thanks to Easy2Code,CleverProgrammer,Coding with Basir, CodeSoucrce and coopercode youtube channels and traversymedia.com  and www.netninja.dev`
 
 
 
